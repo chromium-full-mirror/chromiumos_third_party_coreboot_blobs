@@ -1,0 +1,61 @@
+
+                        Release Notes for
+                        -----------------
+             Mullins Platform Initialization (MullinsPI)
+
+=============================================================================
+
+coreboot usage information:
+
+	    AGESA source (binary PI)  --->
+	(3rdparty/pi/amd/00730F01) AGESA PI directory path
+	(FT3b/AGESA.bin) AGESA PI binary file name
+	(0xFFE00000) AGESA PI binary address in ROM
+
+	config MMCONF_BASE_ADDRESS
+		hex
+		default 0xF8000000
+
+	config MMCONF_BUS_NUMBER
+		int
+		default 64
+
+=============================================================================
+
+Version:  1.0.0.3                             Release Date: May 2014
+File:     MullinsPI_1.0.0.3.ZIP
+
+=============================================================================
+
+Compliant to specs:                                                             PID#
+- BIOS and Kernel Developer's Guide Family 16h Models 30h-3Fh (Mullins) rev3.00 (#52740)
+- AGESA Arch2008 Interface Specification, Revision v2.20                        (#44065)
+
+=============================================================================
+
+=============================================================================
+
+Version:  1.0.0.2                             Release Date: March 2014
+File:     MullinsPI_1.0.0.2.ZIP
+
+=============================================================================
+
+Compliant to specs:                                                     	PID#
+- BIOS and Kernel Developer's Guide Family 16h Models 30h-3Fh (Mullins) rev1.04	(#52740)
+- AGESA Arch2008 Interface Specification, Revision v2.20                        (#44065)
+
+=============================================================================
+
+=============================================================================
+
+Version:  1.0.0.0                             Release Date: February 2014
+File:     MullinsPI_1.0.0.0.ZIP
+
+=============================================================================
+
+Compliant to specs:                                                     	PID#
+- BIOS and Kernel Developer's Guide Family 16h Models 30h-3Fh (Mullins) rev1.03	(#52740)
+- AGESA Arch2008 Interface Specification, Revision v2.20                        (#44065)
+
+=============================================================================
+
