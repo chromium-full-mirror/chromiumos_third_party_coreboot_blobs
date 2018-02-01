@@ -259,7 +259,7 @@
 |          - SMUSTN-34 - Override Proto MAX SCLK of 847 to 800
 |          - SMUSTN-36 - CAC weight IDLE back to 1
 |          - SMUSTN-41 - IsrPSPMSG needs to be in NONPAGEABLE section
-|          - SMUSTN-42 - BIOS message to disable SMU Post code 
+|          - SMUSTN-42 - BIOS message to disable SMU Post code
 |          - SMUSTN-4 - ARG_1 usage for tools (need message to enable this fix)
 |                                                                                                             |
 +-------------------------------------------------------------------------------------------------------------+
@@ -300,7 +300,7 @@
 |          - Official FW Release
 |          - CZ top of tree ported over
 |          - MS code ported over
-|          - CCLK and AVFS/BTC code ported from BR 
+|          - CCLK and AVFS/BTC code ported from BR
 |                                                                                                             |
 +-------------------------------------------------------------------------------------------------------------+
 
