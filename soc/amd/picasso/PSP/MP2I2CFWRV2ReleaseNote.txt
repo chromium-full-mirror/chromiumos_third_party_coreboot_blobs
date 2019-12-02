@@ -41,7 +41,7 @@
 |   * Enabled the register C2PM12/15 in main.
 |
 |   * Change:
-|              - PLAT-30616 : [RV2-FP5] The SFH device will lost and device ID 
+|              - PLAT-30616 : [RV2-FP5] The SFH device will lost and device ID
 |                     change from 15E6 to 15E4 after running S4 or S3 test RS3.
 |              - Git Change-Id:  I5da0fc644c457b039936027115e707bf5b65b303
 |              - Gerrit ID: 144325
