@@ -1,3 +1,75 @@
+Picasso PSP BL Release v00.08.01.76
+======================================
+
+Released Files:
+  1. PspBootLoader_prod_RV.sbin : PSP BootLoader Binary, enabling changes listed below.
+  2. PspBootLoader_prod_RV_timingprofile.sbin : PSP BootLoader Binary, enabling timing profiling support for each FW Status code update.
+  3. PspBootLoader_prod_RV_dbg.sbin : PSP BootLoader Binary, enabling changes listed below (With Serial Debug prints enabled).
+     This is strictly for internal consumption and must not be shared outside of private overlay repos.
+  4. secure_unlock_prod_RV.sbin : Secure Debug Unlock binary
+  5. psp_os_combined_prod_RV.sbin : Secure OS binary
+  6. drv_sys_prod_RV.sbin : System Driver binary
+  7. ReadMe.txt : This file.
+
+
+Changes in 00.08.01.76:
+-----------------------
+Date: 14th February 2020
+
+01. Update to latest PSP Base v00.08.00.76
+02. PLAT-52427:[Chrome]: Picasso Boot Time Profiling
+03. PLAT-58187:[chrome]: Read MP0_SECURE_FUSE correctly on Dali
+04. PLAT-58491:[Chrome]: Enable new SVC API SVC_COPY_DATA_FROM_UAPP
+
+
+Changes in 00.08.03.74:
+-----------------------
+Date: 17th January 2020
+
+00. PLAT-45589: [chrome]: [TOS]: enable late address fencing in FCH
+01. PLAT-57734: [chrome]: Serial Print enable on CHROMEBOOK_PCO
+02. PLAT-57737: [chrome]: MP0 SecureFuse Shift value bug fix.
+03. PLAT-57754: [chrome]: Enable serial prints only for Chrome and if DBG_PRINT_ENABLE=1
+
+
+Changes in 00.08.02.74:
+-----------------------
+Invalid and never released outside.
+We had regression with this which got fixed in 00.08.03.74
+
+
+Changes in 00.08.01.74:
+-----------------------
+Date: 28th November 2019
+
+01. All the chrome specific changes ported to PI-1009 base.
+02. Added Support for OPN check for loading PSPBL UAPP.
+
+
+Changes in 00.08.03.67:
+-----------------------
+Date: 6th November 2019
+
+01. Updated getBiosDirAddr() function to support multiple EFS addresses.
+02. Updated files uapp_spi_rom.c and psp_bl_uapp.h to support multiple EFS addresses.
+03. Add open source copyright for PSP_BL_UAPP source code.
+04. Make PSP BL UAPP optional in PSP DIR Table.
+05. Enable OEM User space application loading during early boot on unsecure or unlocked device.
+
+
+Changes in 02.08.00.67/00.08.02.67:
+-----------------------------------
+Date: 18th June 2019
+
+1. PSP BL Sample Application providing reference to FCH address space access
+		a. I2C controller read/write operation
+		b. SPI controller read/write operation
+		c. eSPI controller read/write operation
+		d. GPIO controller read/write operation (LED blink usecase)
+
+2. Support for PSP and BIOS Directory offset configuration from PSP BL UAPP
+   Check PSPBL_SVC_API_Interface_Spec (v0.4) for more details on SVC API "SVC_UPDATE_PSP_BIOS_DIR"
+
 ----------------------------------------------------------------------------
 ----------------------------------------------------------------------------
 ABL Delivery Release Notes
