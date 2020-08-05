@@ -1,0 +1,2 @@
+=============== dpm release 2020-08=============
+1. support DRAM suspend and DDR DVFS switch
