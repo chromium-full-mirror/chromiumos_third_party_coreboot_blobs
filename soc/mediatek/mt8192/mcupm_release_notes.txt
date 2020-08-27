@@ -1,0 +1,20 @@
+=============== mcupm release 202008=============
+1. lunch mcupm as mcusys control interface
+
+=============== mcupm release 20200819=============
+1. update mcupm.bin to v1.0.1
+2. to initialize private table in mcupm
+
+=============== mcupm release 20200819=============
+1. update mcupm.bin to v1.0.2
+2. fix build/release flow bug
+md5sum : 359b3b63330237df81d3f70952a96bf9
+
+=============== mcupm release 20200827=============
+1. update mcupm.bin to v1.0.3
+2. change private table setting for chrome book
+md5sum : a487272fa3c94f377be38413502ccda4
+
+=============== mcupm release 20200911=============
+1. update mcupm.bin to v1.0.4
+2. add cpufreq opp table into mcupm
