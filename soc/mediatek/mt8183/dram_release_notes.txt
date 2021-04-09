@@ -1,7 +1,7 @@
 # 2020.09.29
 1. Build from Chrome OS 12573.136.0, incompatible with previous versions.
    Header version = 4.
-2. Include changes:
+2. Included changes:
 
 CL:*3222235 dramc: MT8183: Enable CA perbit mechanism
 
@@ -9,35 +9,35 @@ CL:*3222235 dramc: MT8183: Enable CA perbit mechanism
 
 1. Build from Chrome OS 12573.132.0, incompatible with previous versions.
    Header version = 3.
-2. Include changes:
+2. Included changes:
 
 CL:*3208271 dramc: MT8183: Add ddr geometry to support 6GB, 8GB DDR bootup
 
 # 2019.11.20
 
 1. Build from Chrome OS 12573.28.0
-2. Include changes:
+2. Included changes:
 
 CL:*2173841 dramc: fast-k: save TX window param result with correct type
 
 # 2019.11.18
 
 1. Build from Chrome OS 12573.25.0
-2. Include changes:
+2. Included changes:
 
 CL:*2150073 dramc: reduce the default DRAM calibration log
 
 # 2019.11.14
 
 1. Built from Chrome OS 12573.20.0
-2. Include changes:
+2. Included changes:
 
 CL:*2134550 driver: Do not add \r when printing logs to external console
 
 # 2019.10.31
 
 1. Built from Chrome OS 12573.16.0
-2. Include changes:
+2. Included changes:
 
 CL:*2067070 dramc: Control DVFS from config
 CL:*2026388 driver: Add udelay after setting voltages
@@ -45,7 +45,7 @@ CL:*2026388 driver: Add udelay after setting voltages
 # 2019.10.23
 
 1. Built from Chrome OS 12617.0.0
-2. Include changes:
+2. Included changes:
 
 fdaa670 driver: Add pmic_wrap for adjusting voltages
 5178528 dramc: Redirect console output to provided callback
@@ -55,4 +55,3 @@ aa556fb dramc: Minimal effort to support both eMCP and discrete in same blob
 79e9bb5 dramc: Save DRAM calibration result to coreboot for fast calibration
 ae95839 dramc: Loader of the blob should support ELF format
 1a9ce1a porting DRAM full calibration driver
-
