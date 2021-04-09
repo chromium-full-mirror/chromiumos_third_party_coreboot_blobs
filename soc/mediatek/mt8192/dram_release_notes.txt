@@ -1,7 +1,7 @@
 # 1.6.0
 
 1. Chrome OS build from 13869.0.0.
-   Protocal (params header) version: 6
+   Protocol (params header) version: 6
 
 2. Include changes:
 
@@ -14,7 +14,7 @@
 # 1.5.1
 
 1. A local build from 71629f0 (CL:*3639823), incompatible with previous versions.
-   Protocal (params header) version: 5
+   Protocol (params header) version: 5
 
 2. Include changes:
 
