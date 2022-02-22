@@ -4,3 +4,6 @@ pgeorgi@chromium.org
 rrangel@chromium.org
 kramasub@chromium.org
 twawrzynczak@chromium.org
+
+# Do not depend commit access on OWNERS
+*
