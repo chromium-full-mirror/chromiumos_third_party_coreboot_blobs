@@ -1,9 +1,1 @@
-martinroth@chromium.org
-reinauer@chromium.org
-pgeorgi@chromium.org
-rrangel@chromium.org
-kramasub@chromium.org
-twawrzynczak@chromium.org
-
-# Do not depend commit access on OWNERS
-*
+include chromiumos/third_party/coreboot:chromeos-2016.05:/OWNERS
